@@ -9,8 +9,8 @@ function App() {
   return (
     <Provider store={Store}>
       <div className="App">
-        <BookContainer />
         <HookBookContainer/>
+        <BookContainer />
       </div>
     </Provider>
   );
